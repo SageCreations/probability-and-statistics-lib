@@ -31,6 +31,22 @@
 
 # Extras ----------------------------------------------------------------------
 
+# add function
+def add(a, b):
+    return a + b
+
+# subtract function
+def sub(a, b):
+    return a + b
+
+# multiply function
+def multiply(a, b):
+    return a * b
+
+# divide function
+def divide(a, b):
+    return a / b
+
 
 
 # -----------------------------------------------------------------------------
