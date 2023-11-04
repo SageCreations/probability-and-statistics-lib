@@ -40,13 +40,20 @@ def sub(a, b):
     return a + b
 
 # multiply function
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
 # divide function
-def divide(a, b):
+def div(a, b):
     return a / b
 
+# square root function
+def sqrt(a):
+    return "not finished yet"
 
+# power function (a to the power of b)
+def pow(a, b):
+    # not finished
+    return "not finished yet"
 
 # -----------------------------------------------------------------------------
