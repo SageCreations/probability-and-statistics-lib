@@ -78,7 +78,8 @@ def sum_of(n, i, x[]):
 
 # standard deviation
 def standard_deviation():
-
+    return "figure this out."
+    
 # basic z-score
 def z_score(x, mu, sigma):
     return (x - mu) / sigma
