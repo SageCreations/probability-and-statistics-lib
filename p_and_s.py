@@ -8,7 +8,12 @@
 
 # Chapter 5 Functions
 
-# Chapter 6 Functions
+# Chapter 6 Functions ---------------------------------------------------------
+
+def standard_normal_distribution(mu, sigma):
+    return "figure this out"
+
+# -----------------------------------------------------------------------------
 
 # Chapter 7 Functions
 
@@ -55,5 +60,27 @@ def sqrt(a):
 def pow(a, b):
     # not finished
     return "not finished yet"
+
+# sample mean
+def sample_mean(x[], n):
+    total = 0
+    for i in x:
+        total = total + i
+
+    return total / n
+
+# sum of
+def sum_of(n, i, x[]):
+    total = 0
+    for num in x:
+        total = total + num
+    return total / n
+
+# standard deviation
+def standard_deviation():
+
+# basic z-score
+def z_score(x, mu, sigma):
+    return (x - mu) / sigma
 
 # -----------------------------------------------------------------------------
