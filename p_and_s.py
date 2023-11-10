@@ -62,27 +62,20 @@ def pow(a, b):
     return "not finished yet"
 
 # summation
-def summation(x):
+def summation(set_x):
     sum = 0
-    for i in range(0, len(x)+1):
+    for i in range(0, len(set_x)+1):
         sum = sum + i
 
     return sum
 
+
+
 # sample mean
-def sample_mean(x, n):
-    total = 0
-    for i in x:
-        total = total + i
+def sample_mean(set_x, n):
+    return summation(set_x) / n
 
-    return total / n
 
-# sum of
-def sum_of(n, i, x):
-    total = 0
-    for num in x:
-        total = total + num
-    return total / n
 
 # standard deviation
 def standard_deviation():
