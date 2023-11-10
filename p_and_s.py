@@ -61,8 +61,16 @@ def pow(a, b):
     # not finished
     return "not finished yet"
 
+# summation
+def summation(x):
+    sum = 0
+    for i in range(0, len(x)+1):
+        sum = sum + i
+
+    return sum
+
 # sample mean
-def sample_mean(x[], n):
+def sample_mean(x, n):
     total = 0
     for i in x:
         total = total + i
@@ -70,7 +78,7 @@ def sample_mean(x[], n):
     return total / n
 
 # sum of
-def sum_of(n, i, x[]):
+def sum_of(n, i, x):
     total = 0
     for num in x:
         total = total + num
